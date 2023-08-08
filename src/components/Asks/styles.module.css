@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerButton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.containerButton button {
+    background-color: #1E6F9F;
+    color: white;
+    border: 0;
+    padding: 0.875rem;
+    border-radius: 8px;
+}
+
+.containerButton button:hover {
+    background-color: #4EA8DE;
+    color: white;
+    border: 0;
+    padding: 0.875rem;
+    border-radius: 8px;
+    transition: calc(1s - 0.4s);
+}
